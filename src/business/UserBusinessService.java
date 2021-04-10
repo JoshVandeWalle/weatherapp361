@@ -1,11 +1,6 @@
 package business;
 
 import java.util.List;
-
-import javax.faces.view.ViewScoped;
-import javax.inject.Named;
-import javax.interceptor.Interceptors;
-
 import data.UserDao;
 import models.Credentials;
 import models.User;
