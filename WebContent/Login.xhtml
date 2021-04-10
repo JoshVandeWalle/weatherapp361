@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    
+    <h:head>
+        <meta http-equiv="Content-Type" 
+              content="text/html; charset=UTF-8" />
+        <h:outputStylesheet library="css" name="default.css"/>
+        <h:outputStylesheet library="css" name="cssLayout.css"/>
+        <title>Weather App</title>
+    </h:head>
+    
+    <h:body>
+    	<div class = "topbar">
+    		<div align = "center">
+             	<h1>Weather App</h1>
+             </div>
+        </div>
+        <div id="content" align = "center">
+             <ui:insert name="content">
+             <h1>Login</h1>
+	             <h:form>
+	             	Email Address: <h:inputText id = "email" value="#{credentials.email}" /><h:message for="datetime" /><br />
+	             	Your Password: <h:inputText id = "password" value="#{credentials.password}" type = "password"/><h:message for="datetime" /><br />
+	             	<h:commandButton action="#{userController.handleLogin(credentials)}" class = "button" value="Sign In" />
+	             </h:form><br/>
+	             Don't have an account? <a href="Register.xhtml">Sign up.</a>
+             </ui:insert>
+        </div>
+        <div class = "footer">
+             <div align = "center">
+             	<h2>By Austin Harvey and Josh Van de Walle</h2>
+            </div>
+       </div>
+    </h:body>
+</html>
