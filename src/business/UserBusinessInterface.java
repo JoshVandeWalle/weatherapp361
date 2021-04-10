@@ -4,7 +4,7 @@ import models.Credentials;
 import models.User;
 
 /**
- * This interface defines the business logic API for Users
+ * This interface defines the business logic API for users
  * @author t34su
  *
  */
