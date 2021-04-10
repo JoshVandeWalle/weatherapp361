@@ -5,7 +5,7 @@ import models.User;
 
 /**
  * This interface defines the business logic API for users
- * @author t34su
+ * @author Josh Van de Walle
  *
  */
 public interface UserBusinessInterface {
