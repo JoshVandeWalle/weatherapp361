@@ -42,13 +42,14 @@
                 </execution>
             </executions>
         </plugin>
-	    <plugin>
-		<artifactId>maven-ear-plugin</artifactId>
-		<version>${version.ear.plugin}</version>
+	  <plugin>
+		<groupId>org.apache.maven.plugins</groupId>
+		<artifactId>maven-war-plugin</artifactId>
+		<version>3.3.1</version>
 		<configuration>
-	    <outputDirectory>../pathto/deployments</outputDirectory>
+		  <webappDirectory>/sample/servlet/container/deploy/directory</webappDirectory>
 		</configuration>
-	    </plugin>
+      	</plugin>
     </plugins>
   </build>
   <dependencies>
