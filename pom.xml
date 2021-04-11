@@ -29,7 +29,7 @@
                             <artifactItem>
                                 <groupId>org.wildfly</groupId>
                                 <artifactId>wildfly-dist</artifactId>
-                                <version>${version.wildfly}</version>
+                                <version>10.1.0</version>
                                 <type>zip</type>
                                 <overWrite>false</overWrite>
                                 <outputDirectory>target</outputDirectory>
