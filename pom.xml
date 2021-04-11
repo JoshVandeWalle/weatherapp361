@@ -42,6 +42,13 @@
                 </execution>
             </executions>
         </plugin>
+	    <plugin>
+		<artifactId>maven-ear-plugin</artifactId>
+		<version>${version.ear.plugin}</version>
+		<configuration>
+	    <outputDirectory>../pathto/deployments</outputDirectory>
+		</configuration>
+	    </plugin>
     </plugins>
   </build>
   <dependencies>
