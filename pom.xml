@@ -3,7 +3,7 @@
   <groupId>weatherapp</groupId>
   <artifactId>weatherapp</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>war</packaging>
+  <packaging>ear</packaging>
   <build>
     <sourceDirectory>src</sourceDirectory>
 	  <finalName>weatherapp</finalName>
