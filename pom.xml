@@ -6,7 +6,7 @@
   <packaging>war</packaging>
   <build>
     <sourceDirectory>src</sourceDirectory>
-	  <finalName>${project.artifactId}</finalName>
+	  <finalName>weatherapp</finalName>
     <plugins>
         <plugin>
             <groupId>org.wildfly.plugins</groupId>
@@ -47,7 +47,7 @@
             <configuration>
                 <failOnMissingWebXml>false</failOnMissingWebXml>
                 <outputDirectory>target/wildfly-10.1.0.Final/standalone/deployments</outputDirectory>
-                <warName>${project.artifactId}</warName>
+                <warName>weatherapp</warName>
             </configuration>
         </plugin>
     </plugins>
