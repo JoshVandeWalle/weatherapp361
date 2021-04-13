@@ -32,7 +32,7 @@
                                 <version>10.1.0.Final</version>
                                 <type>zip</type>
                                 <overWrite>false</overWrite>
-                                <outputDirectory>target/wildfly-10.1.0.Final/standalone/deployments</outputDirectory>
+                                <outputDirectory>target</outputDirectory>
                             </artifactItem>
                         </artifactItems>
                     </configuration>
