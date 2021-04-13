@@ -46,6 +46,7 @@
             <version>3.2.0</version>
 		<configuration>
                 	<outputDirectory>target/wildfly-10.1.0.Final/standalone/deployments</outputDirectory>
+			<warSourceDirectory>WebContent</warSourceDirectory>
             	</configuration>
         </plugin>
     </plugins>
