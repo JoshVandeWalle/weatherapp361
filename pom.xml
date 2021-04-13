@@ -30,6 +30,7 @@
                                 <groupId>org.wildfly</groupId>
                                 <artifactId>wildfly-dist</artifactId>
                                 <version>10.1.0.Final</version>
+				    <outputDirectory>target</outputDirectory>
                                 <type>zip</type>
                                 <overWrite>false</overWrite>
                             </artifactItem>
