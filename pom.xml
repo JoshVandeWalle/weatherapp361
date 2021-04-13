@@ -4,8 +4,9 @@
   <artifactId>weatherapp</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>ear</packaging>
+	<sourceDirectory>src</sourceDirectory>
   <build>
-    <sourceDirectory>src</sourceDirectory>
+    
 	  <finalName>weatherapp</finalName>
     <plugins>
         <plugin>
