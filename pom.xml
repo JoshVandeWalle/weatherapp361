@@ -3,7 +3,7 @@
   <groupId>weatherapp</groupId>
   <artifactId>weatherapp</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>ear</packaging>
+  <packaging>war</packaging>
   <build>
     
 	  <finalName>weatherapp</finalName>
@@ -42,7 +42,7 @@
 
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-ear-plugin</artifactId>
+            <artifactId>maven-war-plugin</artifactId>
             <version>3.2.0</version>
             <configuration>
                 <outputDirectory>target/wildfly-10.1.0.Final/standalone/deployments</outputDirectory>
