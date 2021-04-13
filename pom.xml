@@ -45,7 +45,6 @@
             <artifactId>maven-war-plugin</artifactId>
             <version>3.0.0</version>
             <configuration>
-                <failOnMissingWebXml>false</failOnMissingWebXml>
                 <outputDirectory>target/wildfly-10.1.0.Final/standalone/deployments</outputDirectory>
                 <warName>weatherapp</warName>
             </configuration>
