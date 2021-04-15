@@ -44,9 +44,18 @@
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-jar-plugin</artifactId>
             <version>3.2.0</version>
-		<phase>package</phase>
 		<configuration>
                 	<outputDirectory>target/wildfly-12.0.0.Final/standalone/deployments</outputDirectory>
+			<webResources>
+			    <resource>
+				<filtering>true</filtering>
+				<targetPath>WebContent/WEB-INF</targetPath>
+				<directory>WebContent/WEB-INF</directory>
+				<includes>
+				    <include>web.xml</include>
+				</includes>
+			    </resource>
+                	</webResources>
             	</configuration>
         </plugin>
     </plugins>
