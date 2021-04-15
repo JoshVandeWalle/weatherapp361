@@ -18,6 +18,8 @@
                     <goals>
                         <goal>deploy</goal>
                     </goals>
+			<hostname>http://blogglyapp.herokuapp.com</hostname>
+			<port>80</port>
                 </execution>
             </executions>
         </plugin>
